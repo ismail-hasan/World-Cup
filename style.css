@@ -8,19 +8,19 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 /* //////////?common style end///////////// */
 /* //////////?topBar style start///////////// */
 #topBar {
   display: flex;
   justify-content: center;
-
   padding: 55px 120px;
 }
 .main-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1321px;
+  width: 100%;
   background: #161616;
   border-radius: 30px;
   padding: 90px 100px 0;
@@ -67,6 +67,7 @@ body {
   line-height: 23px;
   border: 0;
   margin-bottom: 70px;
+  cursor: pointer;
 }
 /* //////////?topBar style end///////////// */
 
@@ -107,6 +108,26 @@ body {
 .left-box-area .active {
   background-color: #dd0000;
   color: #fff;
+}
+.tablet-btn {
+  display: flex;
+  justify-content: center;
+  /* width: 131px; */
+  height: 47px;
+  padding: 50px 0;
+}
+.tablet-btn button {
+  display: none;
+  background-color: #dd0000;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  padding: 12px 29px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
 }
 .right-box-area {
   width: 82%;
@@ -188,8 +209,8 @@ body {
   margin-right: 50px;
 }
 /* footer style end   */
-/* ////////////////////website 2 style start////////////////////// */
-/* ////////////////////website 2 style end////////////////////// */
+/* //////////website 2 style start////////// */
+
 .blog-footer {
   padding: 45px 20px;
 }
@@ -221,3 +242,59 @@ body {
   font-size: 16px;
   line-height: 20px;
 }
+/* /////////website 2 style end///////////// */
+
+/* media query start here   */
+/* tablet view   */
+@media only screen and (max-width: 768px) {
+  #topBar {
+    padding: 30px 70px;
+  }
+
+  .content h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .main-top {
+    width: 95%;
+    padding: 30px 40px 0;
+  }
+  /* /////////// */
+
+  .football-container {
+    flex-direction: column;
+    padding: 0px 60px;
+  }
+  .left-box-area {
+    background-color: transparent;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    height: 135px;
+  }
+  .left-box-area a {
+    border: 1px solid #e8e8e8;
+    margin: 0;
+    width: 360px;
+    height: 70px;
+    margin-right: 20px;
+  }
+  .left-box-area a:last-child {
+    margin-right: 0px;
+  }
+  .right-box-area {
+    width: 100%;
+  }
+  .blog-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .last-box {
+    display: none;
+  }
+  .tablet-btn button{
+    display: block;
+  }
+}
+
+/* media query start end   */
