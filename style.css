@@ -33,7 +33,7 @@ body {
   width: 50%;
 }
 .left-image img {
-  width: 501px;
+  width: 100%;
   height: 513px;
   margin-left: 30px;
 }
@@ -186,6 +186,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 #goal-footer h1 {
   color: #fff;
@@ -224,7 +225,7 @@ body {
 .flag img {
   width: 50%;
 }
-.blog-image img {
+.blog .blog-image img {
   width: 90%;
   height: 56px;
 }
@@ -245,7 +246,7 @@ body {
 
 /* media query start here   */
 /* tablet view   */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 688px) and (max-width: 992px) {
   #topBar {
     padding: 30px 70px;
   }
@@ -282,6 +283,10 @@ body {
   .left-box-area a:last-child {
     margin-right: 0px;
   }
+  .blog img {
+    width: 100%;
+    height: 175px;
+  }
   .right-box-area {
     width: 100%;
   }
@@ -296,6 +301,81 @@ body {
   }
   .tablet-btn button {
     display: block;
+  }
+}
+/* mobile view   */
+@media only screen and (max-width: 688px) {
+  #topBar {
+    padding: 30px 70px;
+  }
+  .content h1 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .main-top {
+    text-align: center;
+    flex-direction: column;
+  }
+  .content {
+    width: 80%;
+  }
+  .left-image {
+    width: 100%;
+  }
+  .left-image img {
+    width: 233px;
+    height: 245px;
+    margin-left: 0px;
+  }
+  /* /////////// */
+
+  .football-container {
+    flex-direction: column;
+    padding: 0px 60px;
+  }
+  .left-box-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 0px;
+    padding: 0;
+    background: transparent;
+    text-align: center;
+  }
+  .left-box-area a {
+    border: 1px solid #e8e8e8;
+    width: 40%;
+    height: 55px;
+    margin: 10px 0;
+  }
+  .left-box-area a:last-child {
+    margin-right: 0px;
+  }
+  .right-box-area {
+    width: 100%;
+  }
+  .blog-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog img {
+    width: 100%;
+    height: 248px;
+  }
+  .last-box {
+    display: none;
+  }
+  .tablet-btn {
+    display: flex;
+  }
+  .tablet-btn button {
+    display: block;
+  }
+  .manu-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
