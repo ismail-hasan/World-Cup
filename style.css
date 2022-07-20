@@ -331,6 +331,9 @@ body {
   .tablet-btn button {
     display: block;
   }
+  #goal-footer {
+    margin-top: 40px;
+  }
 }
 /* mobile view   */
 @media only screen and (max-width: 687px) {
