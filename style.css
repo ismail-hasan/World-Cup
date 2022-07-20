@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/* //////////?common style start///////////// */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* //////////?common style end///////////// */
+/* //////////?topBar style start///////////// */
+#topBar {
+  display: flex;
+  justify-content: center;
+
+  padding: 55px 120px;
+}
+.main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1321px;
+  background: #161616;
+  border-radius: 30px;
+  padding: 90px 100px 0;
+  color: #fff;
+}
+.content {
+  width: 50%;
+}
+.left-image {
+  width: 50%;
+}
+.left-image img {
+  width: 501px;
+  height: 513px;
+  margin-left: 30px;
+}
+
+.content h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+}
+.content p {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.content .btn {
+  margin-top: 30px;
+}
+.content .btn i {
+  margin-left: 10px;
+}
+.content button {
+  background: #dd0000;
+  border-radius: 5px;
+  width: 187px;
+  height: 56px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  border: 0;
+  margin-bottom: 70px;
+}
+/* //////////?topBar style end///////////// */
+
+.football-container {
+  display: flex;
+  padding: 50px 120px;
+}
+.left-box-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  height: 260px;
+  background: #161616;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 0 30px;
+}
+.left-box-area a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #161616;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 210px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.left-box-area a:first-child {
+  margin-top: 0px;
+}
+.left-box-area .active {
+  background-color: #dd0000;
+  color: #fff;
+}
+.right-box-area {
+  width: 82%;
+}
+.blog-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.blog {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+.blog img {
+  width: 100%;
+  height: 148px;
+}
+.blog button {
+  outline: none;
+  border: 1px solid #161616;
+  background: transparent;
+  color: #161616;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 2px 15px;
+  border-radius: 5px;
+}
+.blog .blog-text {
+  padding: 12px;
+}
+.blog-text h3 {
+  color: #161616;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 0;
+}
+.blog-text span i {
+  color: #fff;
+  color: rgba(22, 22, 22, 0.324);
+  font-size: 16px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.blog-text .comment i {
+  margin-left: 20px;
+}
+
+/* footer style start   */
+#goal-footer {
+  padding: 100px 120px;
+  background: #161616;
+}
+#goal-footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#goal-footer h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+#goal-footer hr {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.084);
+  margin: 40px 0;
+}
+.manu-footer a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #b9b9b9;
+  margin-right: 50px;
+}
+/* footer style end   */
+/* ////////////////////website 2 style start////////////////////// */
+/* ////////////////////website 2 style end////////////////////// */
+.blog-footer {
+  padding: 45px 20px;
+}
+.blog .vs {
+  padding: 0 15px;
+}
+.blog-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flag img {
+  width: 50%;
+}
+.blog-image img {
+  width: 90%;
+  height: 56px;
+}
+.blog-text-footer {
+  text-align: center;
+}
+.blog-text-footer h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+}
+.blog-text-footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
