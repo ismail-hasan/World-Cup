@@ -304,7 +304,7 @@ body {
   }
 }
 /* mobile view   */
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 687px) {
   #topBar {
     padding: 30px 70px;
   }
@@ -346,8 +346,8 @@ body {
   }
   .left-box-area a {
     border: 1px solid #e8e8e8;
-    width: 40%;
-    height: 55px;
+    width: 70%;
+    height: 60px;
     margin: 10px 0;
   }
   .left-box-area a:last-child {
