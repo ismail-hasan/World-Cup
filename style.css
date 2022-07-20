@@ -110,11 +110,11 @@ body {
   color: #fff;
 }
 .tablet-btn {
+  display: none;
   display: flex;
   justify-content: center;
-  /* width: 131px; */
-  height: 47px;
-  padding: 50px 0;
+  align-items: center;
+  margin: 30px 0;
 }
 .tablet-btn button {
   display: none;
@@ -122,12 +122,11 @@ body {
   color: #fff;
   outline: 0;
   border: 0;
-  padding: 12px 29px;
   cursor: pointer;
   border-radius: 7px;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
+  font-size: 23px;
+  height: 60px;
+  padding: 0 45px;
 }
 .right-box-area {
   width: 82%;
@@ -204,7 +203,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 40px;
   color: #b9b9b9;
   margin-right: 50px;
 }
@@ -292,7 +291,10 @@ body {
   .last-box {
     display: none;
   }
-  .tablet-btn button{
+  .tablet-btn {
+    display: flex;
+  }
+  .tablet-btn button {
     display: block;
   }
 }
