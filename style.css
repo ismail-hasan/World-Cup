@@ -271,6 +271,9 @@ body {
 .icon i:hover {
   color: #fff;
 }
+.icon i:last-child {
+  margin-right: 0;
+}
 /* /////////website 2 style end///////////// */
 
 /* media query start here   */
@@ -347,6 +350,10 @@ body {
   .main-top {
     text-align: center;
     flex-direction: column;
+    padding: 90px 20px 0;
+  }
+  .main-top p {
+    padding: 0 5px;
   }
   .content {
     width: 100%;
@@ -413,6 +420,9 @@ body {
   }
   .manu-footer a {
     margin-right: 0;
+  }
+  #goal-footer {
+    padding: 100px 50px;
   }
 }
 
